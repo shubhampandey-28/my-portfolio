@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Neeraj Pandey";
+            document.title = "Portfolio | Shubham Pandey";
             $("#favicon").attr("href", "assets/images/favicon.ico");
         }
         else {
-            document.title = "Portfolio | Neeraj Padey";
+            document.title = "Portfolio | Shubham Padey";
             $("#favicon").attr("href", "assets/images/favicon.ico");
         }
     });
